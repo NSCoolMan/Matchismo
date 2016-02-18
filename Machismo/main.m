@@ -10,7 +10,9 @@
 #import "AppDelegate.h"
 
 int main(int argc, char * argv[]) {
+    NSLog(@"18");
     @autoreleasepool {
+        NSLog(@"17");
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

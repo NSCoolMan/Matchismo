@@ -21,4 +21,9 @@
     return score;
 }
 
+-(NSUInteger) gameMode
+{
+    return 0;
+}
+
 @end
