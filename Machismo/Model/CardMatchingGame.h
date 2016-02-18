@@ -19,6 +19,8 @@
 
 @property (nonatomic, readonly)NSInteger score;
 @property (nonatomic) int mode;
-@property (strong, nonatomic) NSString * result;
+@property (strong, nonatomic) NSString * resultq;
+@property (strong, nonatomic) NSAttributedString *resultw;
+@property (strong, nonatomic) NSMutableAttributedString *result;
 
 @end

@@ -16,5 +16,7 @@
 //for subclasses
 - (Deck *)creatDeck; // abstract
 
+@property (strong, nonatomic) NSMutableAttributedString *historyNotes;
+
 @end
 

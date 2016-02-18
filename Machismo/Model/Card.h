@@ -16,4 +16,6 @@
 
 -(int)match:(NSArray *)otherCards;
 
+-(NSUInteger)gameMode;
+
 @end
